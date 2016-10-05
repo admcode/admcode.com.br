@@ -1,0 +1,26 @@
+{
+  "name": "admcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "admcode.com.br",
+    "admcode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ftonato/admcode-site.git"
+  },
+  "author": "ADMCode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/ftonato/admcode-site/issues"
+  },
+  "homepage": "https://gitlab.com/ftonato/admcode-site#README",
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
