@@ -9,11 +9,42 @@ html, body {
   /*letter-spacing: 0.5pt;*/
 }
 
+/* Headroom */
+.headroom {
+  height: 50px;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: rgba(220,220,220, 0.3);
+  transition: all .25s ease-in-out;
+  backface-visibility: hidden;
+  z-index: 100;
+  *zoom: 1;
+}
+.headroom:before, .headroom:after {
+  content: " ";
+  display: table;
+}
+.headroom:after {
+  clear: both;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+
 .hero.is-primary a.nav-item, .hero.is-primary .nav-item a:not(.button) {
   color: rgba(78, 69, 68, 0.7);
 }
 .hero.is-primary a.nav-item:hover, .hero.is-primary a.nav-item.is-active, .hero.is-primary .nav-item a:hover:not(.button), .hero.is-primary .nav-item a.is-active:not(.button) {
   color: #4e4544;
+}
+.nav-menu .nav-item {
+  padding-top: 17px;
 }
 a.nav-item {
   font-size: 1.111rem;
@@ -30,7 +61,7 @@ a.nav-item {
 .box, .notification {
   border-radius: 0
 }
-.box {
+.box, .hero .nav, .hero.is-info .nav, .hero.is-primary .nav, .hero.is-success .nav {
   box-shadow: none;
 }
 
