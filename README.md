@@ -1,8 +1,18 @@
-<a href="http://admcode.com.br" target="_blank"><img src="admcode.png?raw=true" alt="Logo ADMCode"></a>
+<a href="http://admcode.com.br" target="_blank"><img src="img/admcode.png?raw=true" alt="Logo ADMCode"></a>
 
 > Explore the world of ADMCode.
+ADMCode profit is a business template designed with a clean and modern style built for all types of organisations.
 
-Built with [Bulma](http://bulma.io/). Hosted on [GitHub](https://github.com/).
+
+## Browser Support
+- Internet Explorer 9+
+- Google Chrome
+- Safari
+- Firefox
+
+## Fonts
+The font used in the design is Verdana
+
 
 ## Setup
 
