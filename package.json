@@ -1,7 +1,7 @@
 {
   "name": "admcode",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "ADMCode é uma agência digital e fabricante de coisas",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,14 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/ftonato/admcode-site.git"
+    "url": "git+ssh://git@github.com:admcode/admcode.com.br.git"
   },
   "author": "ADMCode",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/ftonato/admcode-site/issues"
+    "url": "https://github.com/admcode/admcode.com.br/issues"
   },
-  "homepage": "https://gitlab.com/ftonato/admcode-site#README",
+  "homepage": "https://github.com/admcode/admcode.com.br/#readme",
   "dependencies": {
   },
   "devDependencies": {}
