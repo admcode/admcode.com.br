@@ -12,3 +12,5 @@ deploy:
   name: Deployment Travis Bot
   on:
     branch: master
+after_deploy:
+  - npm run build
