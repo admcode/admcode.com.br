@@ -1,4 +1,4 @@
-<a href="http://admcode.com.br" target="_blank"><img src="http://admcode.com.br/img/admcode.png?raw=true" alt="Logo ADMCode"></a>
+<a href="http://admcode.com.br" target="_blank"><img src="http://admcode.com.br/img/admcode.png?raw=true" alt="Logo ADMCode"></a> [![Build Status](https://travis-ci.org/admcode/admcode.com.br.svg?branch=master)](https://travis-ci.org/admcode/admcode.com.br)
 
 > Explore the world of ADMCode.
 ADMCode profit is a business template designed with a clean and modern style built for all types of organisations.
