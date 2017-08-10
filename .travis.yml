@@ -1,9 +1,14 @@
 language: node_js
 node_js:
-  - '6'
-  - '5'
-  - '4'
+  - 'stable'
 install:
   - npm install
 script:
   - npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  name: Deployment Travis Bot
+  on:
+    branch: master
